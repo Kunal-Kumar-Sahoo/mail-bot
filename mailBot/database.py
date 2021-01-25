@@ -1,4 +1,4 @@
-import mysql.connector
+import mysql.connector #pip install mysql-connector-python
 
 client = mysql.connector.connect(host="localhost", user="root")
 mycursor = client.cursor()
